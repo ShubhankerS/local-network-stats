@@ -53,7 +53,7 @@ def show_dashboard():
     sent, received = get_network_usage()
     download, upload = get_speedtest_results()
 
-    table = Table(title="🌐 NetPeek — Offline Network Dashboard", box=box.SIMPLE_HEAVY)
+    table = Table(title="🌐 Offline Local Network Stats Dashboard", box=box.SIMPLE_HEAVY)
     table.add_column("Metric", style="cyan", no_wrap=True)
     table.add_column("Value", style="magenta")
 
